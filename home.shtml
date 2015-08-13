@@ -1,0 +1,8 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/home.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/home.js');</script> 
+<!--#include virtual="include/_footer.html"-->

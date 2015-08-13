@@ -1,0 +1,224 @@
+/* RESET */
+@charset "utf-8";
+@import '_mixin';
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{margin:0 auto;border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+ol,ul{list-style:none}
+li{list-style:none;}
+a,button{cursor:pointer;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+img{vertical-align:top;border:0}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;font-weight:400}
+i,u,em,b,strong{font-style:normal;text-decoration:none;font-weight:400}
+
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 24px;
+}
+
+$base-layout:smart;
+@import "base/*.png";
+
+@mixin icon($name){
+	width: base-sprite-width($name); 
+	height: base-sprite-height($name);
+	@include base-sprite($name);
+};
+
+/* skin */
+@mixin setColor($class, $color){
+	.#{$class},.#{$class} a{
+		color:$color;
+	}
+	a.#{$class}:hover,.#{$class} a:hover{
+		color:$hover;
+	}
+}
+body{font-size:12px;font-family:"PingHei",'Microsoft YaHei','Lucida Grande','Lucida Sans Unicode','Arial';-webkit-text-size-adjust:none;color:#444;}
+input,textarea,button,select,keygen,legend,button{outline:none;resize:none;font-family:'Lucida Grande','Lucida Sans Unicode','Arial';color:#4D4D4D;}
+input:-webkit-autofill{-webkit-box-shadow: 0 0 0 1000px #fff inset;}
+a{
+	color:#323232;text-decoration:none;@include tran(color,.4s);
+	&:hover{color:$hover;text-decoration:underline;@include tran(color,.2s)}
+}
+
+/*
+* font color
+*/
+@include setColor(cRed,$red);
+@include setColor(cYellow,$yellow);
+@include setColor(cWhite,$white);
+@include setColor(cGray,$gray);
+@include setColor(cBlack,$black);
+@include setColor(cBlue,$blue);
+@include setColor(cOrange,$orange);
+@include setColor(cGreen,$green);
+
+/*
+* font
+*/
+.fy{font-family: 'Microsoft YaHei';}
+.fa{font-family:Arial}
+.fs{font-family:\5B8B\4F53}
+.fb{font-weight:bold}
+.f12{font-size: 12px;}
+.f13{font-size: 13px;}
+.f14{font-size: 14px;}
+.f15{font-size: 15px;}
+.f16{font-size: 16px;}
+.f18{font-size: 18px;}
+.f20{font-size: 20px;}
+.f24{font-size: 24px;}
+.fun,.fun:hover{text-decoration:underline;}
+.fjd{overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis;}
+.ftl{text-align:left;}
+.ftc{text-align:center;}
+.ftr{text-align:right;}
+
+/*
+* base
+*/
+.left{float:left;}
+.right{float:right;}
+.none{display:none;}
+.block{display:block;}
+.clear{clear:both;height:0;overflow:hidden;display:block}
+.clearfix{
+	*zoom:1;
+	&:after{clear:both;height:0;overflow:hidden;display:block;visibility:hidden;content:".";}
+}
+.css3img{
+	img{@include tran(opacity,.5s)}
+	a:hover img{opacity:0.7;@include tran(opacity,.5s)}
+}
+
+.p-w{
+	width: 990px;margin:0 auto;
+}
+.p-w:after,.p-w:before{display:table;content:" "}
+.p-w:after{clear:both}
+
+.p-body{
+	padding-bottom: 216px;position: relative;
+}
+
+.p-toper{
+	height: 70px;
+	h2{
+		float: left;padding:15px 0 0 23px;
+		a{
+			display: block;height: 100%;@include icon(logo);text-indent: -999em;overflow: hidden;
+		}
+	}
+	p{
+		float: right;padding: 23px 20px 0 0;
+		i{
+			display: inline-block;@include icon(phone);margin:0 7px -9px 0;
+		}
+	}
+}
+
+.p-menu{
+	border-top: 1px solid #ECEDF2;
+	.main{
+		overflow: hidden;
+		ul{
+			width: 1200px;overflow: hidden;margin-left: -13px;
+		}
+		li{
+			float: left;padding:0 32px;position: relative;line-height: 50px;
+			span{
+				position: absolute;right:0;height: 15px;border-left: 1px solid #C0C0C0;border-right: 1px solid #F0F0F0;top:17px;
+			}
+			&.on{
+				a{
+					color:$hover;
+				}
+				em{
+					position: absolute;bottom: 0;border: 7px solid #B3B5B3;border-top:none;border-left-color: transparent;border-right-color: transparent;left: 50%;margin-left: -7px;
+				}
+			}
+		}
+		a{
+			text-decoration: none;
+		}
+	}
+}
+
+.p-submenu{
+	background: #6F6F6F;height: 34px;border-top: 1px solid #B3B5B3;
+	div{
+		text-align: right;padding-top: 4px;
+		a,span{
+			display: inline-block;color: #fff;line-height: 22px;padding:0 11px;-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;margin:0 5px;
+		}
+		a:hover,span{
+			background:#898989;text-decoration: none;
+		}
+	}
+}
+
+.p-footer{
+	position: absolute;bottom:0;width: 100%;background: rgba(0,0,0,.1);
+	.main{
+		padding:20px 0;overflow: hidden;text-shadow:1px 2px 2px #333333;
+		.main-l{
+			float: left;
+			dl{
+				width: 142px;float: left;
+			}
+			dt{
+				height: 41px;
+				em{
+					display: inline-block;@include icon(icon1);margin: 0 5px -2px 0;
+					&.icon2{
+						@include icon(icon2);
+					}
+					&.icon3{
+						@include icon(icon3);
+					}
+				}
+			}
+			dd{
+				line-height: 22px;padding-left: 22px;
+			}
+		}
+
+		.main-r{
+			float: right;
+			dl{
+				float: right;width: 110px;height: 128px;overflow: hidden;background: #C7C9C7;margin-left: 15px;
+			}
+			dt{
+				@include icon(e1);margin: 11px;margin-bottom: 0;
+			}
+			dd{
+				text-align: center;padding-top: 5px;
+			}
+		}
+	}
+	.copyright{
+		background: #505050;line-height: 30px;
+	}
+}

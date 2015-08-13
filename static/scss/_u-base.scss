@@ -1,0 +1,118 @@
+/* RESET */
+@charset "utf-8";
+$u-layout:smart;
+@import "u/*.png";
+
+@mixin icon($name){
+	width: u-sprite-width($name); 
+	height: u-sprite-height($name);
+	@include u-sprite($name);
+};
+
+.p-body{
+	background: #EFF1EE;overflow: hidden;
+}
+
+.g-main{
+	background: #fff;margin-top: 15px;
+}
+
+.g-left{
+	width: 200px;overflow: hidden;float: left;border-right: 15px solid #EFF1EE;
+}
+
+.g-right{
+	float: left;width: 775px;border-left: 15px solid #EFF1EE;margin-left: -15px;position: relative;
+}
+
+
+.m-menu{
+	padding-bottom: 30px;
+	dt{
+		padding-top: 18px;height: 32px;border-bottom: 1px solid $border;padding-left: 55px;
+	}
+
+	dd{
+		padding-top: 10px;
+		a{
+			display: block;line-height: 30px;padding-left: 70px;position: relative;
+			&:hover{
+				background: $blue;color: #fff;text-decoration: none;
+			}
+			span{
+				display: inline-block;width: 6px;height: 6px;background:#999;position: absolute;left:55px;top:12px;-moz-border-radius:2em; -webkit-border-radius:2em; border-radius:2em;
+			}
+		}
+	}
+}
+
+.m-title{
+	border-bottom: 1px solid $border;width: 100%;position: relative;
+	dt{
+		padding-top: 18px;height: 32px;text-indent: 30px;
+	}
+
+	dd{
+		position: absolute;right:10px;top:14px;
+		a{
+			display: inline-block;width: 80px;line-height: 24px;border:1px solid #ccc;text-align: center;margin-right: 5px;border-radius: 2px;
+			&.on,&:hover{
+				background: $blue;border-color: $blue;text-decoration: none;color:#fff;
+			}
+		}
+	}
+}
+
+.m-subTitle{
+	span{
+		@include icon(arw)
+	}
+}
+
+.m-table{
+	table{
+		width: 100%;
+	}
+	th{
+		height: 40px;text-align: center;line-height: 1.5em;border:1px solid $border;border-width: 1px 0; background: #f4f4f4;font-weight: 700;
+	}
+	td{
+		padding:10px 0;line-height: 1.5em;font-size: 13px;color:#707070;
+		a{
+			color: $blue;
+		}
+	}
+	tr{
+		&.on{
+			td{
+				background:#F7F7F7;
+			}
+		}
+		&:hover{
+			td{
+				background:#FFFFE7
+			}
+		}
+	}
+}
+
+.m-bottomblock{
+	background: #F4F9FB;padding:30px 0;margin-top: 20px;
+}
+
+.u-page{
+	text-align: center;
+	a,span{
+		display: inline-block;width: 30px;line-height: 30px;border:1px solid #ccc;text-align: center;margin-right: 5px;border-radius: 2px;background: #fff;
+	}
+	span,a:hover{
+		background: $blue;border-color: $blue;text-decoration: none;color:#fff;
+	}
+}
+
+.u-button{
+	display: inline-block;line-height: 39px;border:1px solid $blue;text-align: center;border-radius: 2px;height: 39px;padding:0 22px;color:$blue;background: #fff;
+	&:hover{
+		background: $blue;text-decoration: none;color:#fff;
+	}
+}
