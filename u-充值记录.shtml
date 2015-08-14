@@ -1,0 +1,75 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/u-index.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				交易记录
+			</dt>
+			<dd class="f14">
+				<a href="">充值记录</a>
+				<a href="" class="on">提现记录</a>
+				<a href="">购买记录</a>
+				<a href="">赎回记录</a>
+			</dd>
+		</dl>
+		<div class="m-table">
+			<table class="f14 ftc">
+				<tr>
+					<th width="260">充值时间</th>
+					<th>充值金额</th>
+					<th width="260">账户余额</th>
+				</tr>
+				<tr>
+					<td>2015年07月02日 20点50分</td>
+					<td>811.80元</td>
+					<td>1222222元</td>
+				</tr>
+				<tr class="on">
+					<td>2015年07月02日 20点50分</td>
+					<td>811.80元</td>
+					<td>1222222元</td>
+				</tr>
+				<tr>
+					<td>2015年07月02日 20点50分</td>
+					<td>811.80元</td>
+					<td>1222222元</td>
+				</tr>
+				<tr class="on">
+					<td>2015年07月02日 20点50分</td>
+					<td>811.80元</td>
+					<td>1222222元</td>
+				</tr>
+				<tr>
+					<td>2015年07月02日 20点50分</td>
+					<td>811.80元</td>
+					<td>1222222元</td>
+				</tr>
+				<tr class="on">
+					<td>2015年07月02日 20点50分</td>
+					<td>811.80元</td>
+					<td>1222222元</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="m-bottomblock ftc">
+			<div class="u-page">
+				<a href="">1</a>
+				<a href="">2</a>
+				<span href="">3</span>
+				<a href="">4</a>
+				<a href="">5</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/home.js');</script> 
+<!--#include virtual="include/_footer.html"-->
