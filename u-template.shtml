@@ -1,0 +1,112 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/u-index.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				交易记录
+			</dt>
+			<dd class="f14">
+				<a href="">充值记录</a>
+				<a href="" class="on">提现记录</a>
+				<a href="">购买记录</a>
+				<a href="">赎回记录</a>
+			</dd>
+		</dl>
+		<dl class="m-subTitle">
+			<dt><span></span>登陆账户</dt>
+		</dl>
+		<div class="m-table">
+			<table class="f14 ftc">
+				<tr>
+					<th width="180">提款时间</th>
+					<th>提款银行卡</th>
+					<th>金额（元）</th>
+					<th width="150">状态</th>
+				</tr>
+				<tr>
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr class="on">
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr>
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr class="on">
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr>
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr class="on">
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr>
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr class="on">
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr>
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+				<tr class="on">
+					<td><a href="" class="cBlue fun">凯利一号</a></td>
+					<td>招商银行（尾号：4128）</td>
+					<td><span class="f16 cOrange">811.80元</span></td>
+					<td>提现成功审核中</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="m-bottomblock ftc">
+			<div class="u-page">
+				<a href="">1</a>
+				<a href="">2</a>
+				<span href="">3</span>
+				<a href="">4</a>
+				<a href="">5</a>
+			</div>
+		</div>
+
+		<div class="m-bottomblock ftc">
+			<a href="" class="u-button f18">立即购买</a>
+		</div>
+	</div>
+</div>
+
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/home.js');</script> 
+<!--#include virtual="include/_footer.html"-->

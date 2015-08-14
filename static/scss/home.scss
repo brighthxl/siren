@@ -3,5 +3,13 @@
 @import 'base';
 
 .p-body{
-	background: #EFF1EE
+	background: url(../images/home/indexbg.jpg) right top;height:533px;
+}
+
+.p-footer{
+	position: fixed;
+}
+
+.p-submenu{
+	display: none;
 }
