@@ -332,11 +332,13 @@ a.cGreen:hover, .cGreen a:hover {
 /* line 105, ../scss/_base.scss */
 .p-body {
   padding-bottom: 216px;
-  position: relative; }
+  position: relative;
+  min-width: 990px; }
 
 /* line 109, ../scss/_base.scss */
 .p-toper {
-  height: 70px; }
+  height: 70px;
+  min-width: 990px; }
   /* line 111, ../scss/_base.scss */
   .p-toper h2 {
     float: left;
@@ -364,7 +366,8 @@ a.cGreen:hover, .cGreen a:hover {
 
 /* line 125, ../scss/_base.scss */
 .p-menu {
-  border-top: 1px solid #ECEDF2; }
+  border-top: 1px solid #ECEDF2;
+  min-width: 990px; }
   /* line 127, ../scss/_base.scss */
   .p-menu .main {
     overflow: hidden; }
@@ -433,12 +436,12 @@ a.cGreen:hover, .cGreen a:hover {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.1); }
+  background: rgba(0, 0, 0, 0.1);
+  min-width: 990px; }
   /* line 167, ../scss/_base.scss */
   .p-footer .main {
     padding: 20px 0;
-    overflow: hidden;
-    text-shadow: 1px 2px 2px #333333; }
+    overflow: hidden; }
     /* line 169, ../scss/_base.scss */
     .p-footer .main .main-l {
       float: left; }

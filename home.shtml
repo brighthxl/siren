@@ -2,7 +2,15 @@
 <title>私人银行</title>
 <script>_K.get('static/css/home.css')</script>
 <!--#include virtual="include/_header.html"-->
-
+<div class="m-main p-w">
+	<div class="star"></div>
+	<div class="brand"><em></em></div>
+	<dl class="pos pos-1"><dt></dt><dd><a href="">企业融资通</a></dd></dl>
+	<dl class="pos pos-2"><dt></dt><dd><a href="">美国房地产信托</a></dd></dl>
+	<dl class="pos pos-3"><dt></dt><dd><a href="">美国大单保险</a></dd></dl>
+	<dl class="pos pos-4"><dt></dt><dd><a href="">私募通</a></dd></dl>
+	<dl class="pos pos-5"><dt></dt><dd><a href="">三板通</a></dd></dl>
+</div>
 <!--#include virtual="include/footer.html"--> 
 <script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/home.js');</script> 
 <!--#include virtual="include/_footer.html"-->

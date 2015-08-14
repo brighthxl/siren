@@ -103,11 +103,11 @@ a{
 .p-w:after{clear:both}
 
 .p-body{
-	padding-bottom: 216px;position: relative;
+	padding-bottom: 216px;position: relative;min-width: 990px;
 }
 
 .p-toper{
-	height: 70px;
+	height: 70px;min-width: 990px;
 	h2{
 		float: left;padding:15px 0 0 23px;
 		a{
@@ -123,7 +123,7 @@ a{
 }
 
 .p-menu{
-	border-top: 1px solid #ECEDF2;
+	border-top: 1px solid #ECEDF2;min-width: 990px;
 	.main{
 		overflow: hidden;
 		ul{
@@ -163,9 +163,9 @@ a{
 }
 
 .p-footer{
-	position: absolute;bottom:0;width: 100%;background: rgba(0,0,0,.1);
+	position: absolute;bottom:0;width: 100%;background: rgba(0,0,0,.1);min-width: 990px;
 	.main{
-		padding:20px 0;overflow: hidden;text-shadow:1px 2px 2px #333333;
+		padding:20px 0;overflow: hidden;
 		.main-l{
 			float: left;
 			dl{
