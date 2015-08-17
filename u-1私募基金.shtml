@@ -1,0 +1,54 @@
+<!--#include virtual="include/header.html"-->
+<title>私募基金</title>
+<script>_K.get('static/css/u-index.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				私募基金
+			</dt>
+			
+		</dl>
+		<div class="m-table">
+			<table class="f14 ftc">
+				<tr>
+					<th width="20%">产品名称</th>
+					<th width="20%">认购金额</th>
+					<th width="20%">持有股份</th>
+					<th width="20%">认购时间</th>
+					<th width="20%">预计年化收益</th>
+				</tr>
+				<tr>
+					<td><a href="" class="cBlue fun">凯利1号</a></td>
+					<td>1000万</td>
+					<td>1000股</td>
+					<td>2013年6月7日</td>
+					<td><span class="f18 cOrange">15%</span></td>
+				</tr>
+				<tr class="on">
+					<td><a href="" class="cBlue fun">凯利2号</a></td>
+					<td>1000万</td>
+					<td>1000股</td>
+					<td>2013年6月7日</td>
+					<td><span class="f18 cOrange">25%</span></td>
+				</tr>
+				<tr>
+					<td><a href="" class="cBlue fun">凯利3号</a></td>
+					<td>1000万</td>
+					<td>1000股</td>
+					<td>2013年6月7日</td>
+					<td><span class="f18 cOrange">45%</span></td>
+				</tr>
+			</table>
+		</div>
+		<!--#include virtual="include/_u-right-hot.html"-->
+
+	</div>
+</div>
+
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/home.js');</script> 
+<!--#include virtual="include/_footer.html"-->

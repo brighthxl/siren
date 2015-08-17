@@ -1,0 +1,11 @@
+/* RESET */
+@charset "utf-8";
+@import 'base';
+@import 'u-base';
+
+.w168{width:168px;}
+.u_fankui{width:498px;height:380px;margin:32px auto 0px;
+	textarea{width:486px;height:184px;padding:5px;overflow:hidden;border:1px solid $border;overflow-y:scroll;}
+	p{padding-top:28px;height:30px;}
+	select{width: 228px;border:1px solid $border;height:46px;line-height:46px;padding-left:5px;color:#909191;}
+}

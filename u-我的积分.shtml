@@ -1,0 +1,69 @@
+<!--#include virtual="include/header.html"-->
+<title>我的积分</title>
+<script>_K.get('static/css/u-chongzhi.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				我的积分
+			</dt>
+			<dd class="f14">
+				
+			</dd>
+		</dl>
+		<div class="m-table">
+			<table class="f14 ftc">
+				<tr>
+					<th width="33%">积分项目</th>
+					<th width="34%">积分数量</th>
+					<th width="33%">累计积分</th>
+				</tr>
+				<tr>
+					<td>分享</td>
+					<td>10</td>
+					<td>208</td>
+				</tr>
+				<tr class="on">
+					<td>累计登陆1天</td>
+					<td>10</td>
+					<td>201</td>
+				</tr>
+				<tr>
+					<td>分享</td>
+					<td>10</td>
+					<td>208</td>
+				</tr>
+				<tr class="on">
+					<td>累计登陆1天</td>
+					<td>10</td>
+					<td>201</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="m-bottomblock ftc">
+			<div class="u-page">
+				<a href="">1</a>
+				<a href="">2</a>
+				<span href="">3</span>
+				<a href="">4</a>
+				<a href="">5</a>
+			</div>
+		</div>
+		<dl class="u_jifen">
+			<dt class="f14 cBlack">积分规则</dt>
+			<dd>
+				<p>1、登陆账户获得周积累积分。即以七天为一个周期，第一天登陆获得10积分，第二天登陆获得20积分，第三天登陆获得第七天登陆获得70积分，即连续7天登陆，每天获得的积分比次日多10分。七天结束后，积分积累重新开始下一个周期。如果不满七天，即出现间断情况，下次登陆视为七天周期的第一天。</p>
+				<p>2、每次向其他网站分享获得10分，每周最多获得300分。</p>
+				<p>3、一积分等于1分钱。</p>
+			</dd>
+		</dl>
+	</div>
+</div>
+
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/home.js');</script> 
+<!--#include virtual="include/_footer.html"-->
