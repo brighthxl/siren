@@ -1,0 +1,22 @@
+/* RESET */
+@charset "utf-8";
+@import 'base';
+@import 'u-base';
+
+.u_guanzhu{width:698px;margin:10px auto;overflow:hidden;line-height:24px;
+	dl{border:1px solid #b7b4b4;padding:15px 17px 12px;width:662px;border-radius:4px;margin:15px auto;float:left;
+		dd{color:#b7b4b4;}
+	}
+	
+}
+.u_fenx{width: 460px;margin: 0 auto;line-height:24px;
+	dl{border:1px solid #b7b4b4;padding:15px 30px 10px;width:398px;border-radius:4px;margin:15px auto 0;position:relative;
+		dd{color:#b7b4b4;}
+		em{
+			position: absolute;left:-8px;border: 7px solid #b1b1b1;border-left:none;border-top-color: transparent;border-bottom-color: transparent;top: 50%;margin-top: -7px;
+			}
+		i{
+			position: absolute;left:-7px;border: 7px solid #fff;border-left:none;border-top-color: transparent;border-bottom-color: transparent;top: 50%;margin-top: -7px;
+			}
+	}
+}
