@@ -1,0 +1,37 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/login.css')</script>
+<!--#include virtual="include/_header.html"-->
+<div class="g-body">
+	<div class="m-title f20 cWhite">登 录</div>
+	<div class="m-form">
+		<div class="item">
+			<h2>手机号码</h2>
+			<div class="form">
+				<span class="icon"></span>
+				<span class="line"></span>
+				<input type="text" placeholder="请输入您注册时的手机号">
+				<span class="error">错误信息吧</span>
+			</div>			
+		</div>
+		<div class="item">
+			<h2>输入密码</h2>
+			<div class="form">
+				<span class="icon icon02"></span>
+				<span class="line"></span>
+				<input type="password" placeholder="请输入您注册时的手机号">
+				<span class="error none">错误信息吧</span>
+			</div>			
+		</div>
+		<div class="tip f14">
+			<a href="" class="cBlue right">没有账号？</a>
+			<span></span><a href="" class="cGray">忘记密码?</a>
+		</div>
+	</div>
+	<div class="m-button">
+		<a href="" class="u-button f18">登 录</a>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/login.js');</script> 
+<!--#include virtual="include/_footer.html"-->

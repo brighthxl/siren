@@ -70,6 +70,12 @@
 	</div>
 </div>
 
+<script>
+	_K.push(function(){
+		alert(4545)
+	})
+</script>
+
 <!--#include virtual="include/footer.html"--> 
 <script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/home.js');</script> 
 <!--#include virtual="include/_footer.html"-->

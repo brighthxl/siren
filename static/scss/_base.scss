@@ -103,7 +103,7 @@ a{
 .p-w:after{clear:both}
 
 .p-body{
-	padding-bottom: 216px;position: relative;min-width: 990px;
+	padding-bottom: 216px;position: relative;min-width: 990px;background: #F4F4F2;
 }
 
 .p-toper{
@@ -203,5 +203,12 @@ a{
 	}
 	.copyright{
 		background: #505050;line-height: 30px;
+	}
+}
+
+.u-button{
+	display: inline-block;line-height: 39px;border:1px solid $blue;text-align: center;border-radius: 2px;height: 39px;padding:0 22px;color:$blue;background: #fff;min-width: 160px;
+	&:hover{
+		background: $blue;text-decoration: none;color:#fff;
 	}
 }

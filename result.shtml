@@ -1,0 +1,30 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/result.css')</script>
+<!--#include virtual="include/_header.html"-->
+<div class="m-result">
+	<h2 class="title cBlue"><span class="icon"></span>恭喜您注册成功</h2>
+	<div class="result">为保证您的账户资金安全，在交易时必须先进行实名认证 <a href="" class="cBlue fun">以后再说</a></div>
+	<div class="button">
+		<a href="" class="u-button f18">立即实名认证</a>
+	</div>
+</div>
+
+<div class="m-result">
+	<h2 class="title cBlue"><span class="icon"></span>恭喜您已经上传</h2>
+	<div class="result">您已提交实名认证，我们会尽快确认您的信息<br>感谢您的配合，如有问题请咨询：010-12345678</div>
+	<div class="button">
+		<a href="" class="u-button f18">确定</a>
+	</div>
+</div>
+
+<div class="m-result">
+	<h2 class="title cBlue"><span class="icon icon02"></span>很抱歉，您的账户余额不足 </h2>
+	<div class="result">请充值或选择其它支付方式进行支付 <a href="" class="cBlue fun">马上充值</a></div>
+	<div class="button">
+		<a href="" class="u-button f18">确定</a>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/result.js');</script> 
+<!--#include virtual="include/_footer.html"-->

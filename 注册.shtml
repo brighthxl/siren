@@ -1,0 +1,55 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/login.css')</script>
+<!--#include virtual="include/_header.html"-->
+<div class="g-body">
+	<div class="m-title f20 cWhite">注 册</div>
+	<div class="m-form">
+		<div class="item">
+			<h2>手机号码</h2>
+			<div class="form">
+				<span class="icon"></span>
+				<span class="line"></span>
+				<input type="text" placeholder="请输入您注册时的手机号">
+				<span class="error">错误信息吧</span>
+			</div>			
+		</div>
+		<div class="item item-code">
+			<h2>验证码</h2>
+			<div class="form">
+				<span class="icon icon02"></span>
+				<span class="line"></span>
+				<input type="text" placeholder="短信验证码">
+				<span class="error">错误信息吧</span>
+				<span class="btn">获取验证码</span>
+			</div>			
+		</div>
+		<div class="item">
+			<h2>设置新密码</h2>
+			<div class="form">
+				<span class="icon icon02"></span>
+				<span class="line"></span>
+				<input type="password" placeholder="密码长度6-12位，数字加字母组合">
+				<span class="error none">错误信息吧</span>
+			</div>			
+		</div>
+		<div class="item">
+			<h2>确认密码</h2>
+			<div class="form">
+				<span class="icon icon02"></span>
+				<span class="line"></span>
+				<input type="password" placeholder="请再次输入设置的密码">
+				<span class="error none">错误信息吧</span>
+			</div>			
+		</div>
+		<div class="igree f12 ftc">
+			<input type="checkbox" id="igree"><span class="cGray"><label for="igree">同意并遵守</label></span><a href="" class="cBlue fun">《凯利财富用户协议和隐私政策》</a>
+		</div>
+	</div>
+	<div class="m-button">
+		<a href="" class="u-button f18">立即注册</a>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/login.js');</script> 
+<!--#include virtual="include/_footer.html"-->
