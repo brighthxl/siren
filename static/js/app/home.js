@@ -1,16 +1,15 @@
 ! function() {
 	var pbody = $('.p-body')
 	var pfooter = $('.p-footer')
-	var top = $('.p-toper')
-	var menu = $('.p-menu')
 	var win = $(window)
-	var topHeight = top.outerHeight()
-	var menuHeight = menu.outerHeight()
+	var topHeight = $('.p-toper').outerHeight()
+	var menuHeight = $('.p-menu').outerHeight()
 	var pbodyHeight = pbody.outerHeight()
+	var psubmenuHeight = $('.p-submenu').outerHeight()
 
 	function _resize() {
 		var windowHeight = win.height()
-		var height = windowHeight - topHeight - menuHeight
+		var height = windowHeight - topHeight - menuHeight - psubmenuHeight
 		if (height > pbodyHeight) {
 			pbody.css({
 				height: height,
