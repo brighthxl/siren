@@ -2,7 +2,23 @@
 <title>账户首页</title>
 <script>_K.get('static/css/u-dadan.css')</script>
 <!--#include virtual="include/_header.html"-->
-
+	<div class="m_account">
+		<div class="p-w">
+			<dl class="m_toux left">
+				<dt class="left"><a href=""><img src="static/images/home/touxiang_icon.gif" alt="" /></a><i></i></dt>
+				<dd class="right">
+					<b class="cOrange f18"><span>您好! 张小二</span>欢迎进入凯利财富世界!</b>
+					<p>账户名： 134******23<span>|</span>上次登录时间：2015.07.23 22:59:12</p>
+				</dd>
+			</dl>
+			<div class="m_txt right">
+				<a href="">我的消息</a>
+				<a href="">反馈留言</a>
+				<a href="">我的积分</a>
+				<a href="">我的分享</a>
+			</div>
+		</div>
+	</div>
 <div class="g-main p-w">
 	<!--#include virtual="include/_u-left.html"-->
 	<div class="g-right">
@@ -11,8 +27,8 @@
 				账户首页
 			</dt>
 		</dl>
-		<div class="f14 u-listv">
-			<dl class="left">
+		<div class="f14 m_listv">
+			<dl class="m_acl left">
 				<dt>账户余额：<span class="f24 cOrange">100,000,000</span>元</dt>
 				<dd><a href="#">充值</a><a href="#">提现</a></dd>
 				<dt>我的项目：<span class="f24 cOrange">100,000,000</span>个</dt>
@@ -20,7 +36,7 @@
 				<dt>我的关注：<span class="f24 cOrange">100,000,000</span>个</dt>
 				<dd><a href="#">查看</a></dd>
 			</dl>
-			<dl class="right">
+			<dl class="m_acr right">
 				<dt>VIP会员：否</dt>
 				<dd><a href="#">查看</a></dd>
 				<dt>实名认证：未认证</dt>
