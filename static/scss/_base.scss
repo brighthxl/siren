@@ -150,7 +150,7 @@ a{
 }
 
 .p-submenu{
-	background: #6F6F6F;height: 34px;border-top: 1px solid #B3B5B3;
+	background: #6F6F6F;height: 34px;border-top: 1px solid #B3B5B3;min-width: 990px;
 	div{
 		text-align: right;padding-top: 4px;
 		a,span{
@@ -163,7 +163,7 @@ a{
 }
 
 .p-footer{
-	position: absolute;bottom:0;width: 100%;background: rgba(0,0,0,.1);min-width: 990px;
+	position: absolute;bottom:0;width: 100%;background: rgba(0,0,0,.1);min-width: 990px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1f000000,endColorstr=#1f000000); 
 	.main{
 		padding:20px 0;overflow: hidden;
 		.main-l{
@@ -210,5 +210,12 @@ a{
 	display: inline-block;line-height: 39px;border:1px solid $blue;text-align: center;border-radius: 2px;height: 39px;padding:0 22px;color:$blue;background: #fff;min-width: 160px;
 	&:hover{
 		background: $blue;text-decoration: none;color:#fff;
+	}
+}
+
+.u-button-2{
+	background: $blue;color:#fff;
+	&:hover{
+		text-decoration: none;opacity: 0.8;filter:alpha(opacity=80);
 	}
 }

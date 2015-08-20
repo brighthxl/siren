@@ -38,6 +38,9 @@ $u-layout:smart;
 			display: block;line-height: 30px;padding-left: 70px;position: relative;
 			&:hover{
 				background: $blue;color: #fff;text-decoration: none;
+				span{
+					background: #fff;
+				}
 			}
 			span{
 				display: inline-block;width: 6px;height: 6px;background:#999;position: absolute;left:55px;top:12px;-moz-border-radius:2em; -webkit-border-radius:2em; border-radius:2em;

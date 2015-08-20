@@ -1,0 +1,76 @@
+<!--#include virtual="include/header.html"-->
+<title>充值记录</title>
+<script>_K.get('static/css/u-recharge.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				账户充值
+			</dt>
+		</dl>
+		<dl class="m-subTitle">
+			<dt><span></span>请填写充值金额</dt>
+		</dl>
+		<div class="m-amount clearfix">
+			<div class="title f16">
+				账户余额：<span class="f20 cOrange">811.80</span> 元
+			</div>
+			<dl class="item item-x">
+				<h2>充值金额：</h2>
+				<div class="form">
+					<span class="unit">元</span>
+					<input type="text" placeholder="输入充值的金额">
+					<span class="error">错误信息吧</span>
+				</div>
+			</dl>
+		</div>
+		<dl class="m-subTitle">
+			<dt><span></span>请选择您的汇出银行：</dt>
+		</dl>
+		<div class="m-bank">
+			<ul class="clearfix">
+				<li><span class="bank-gd"></span><em></em></li>
+				<li><span class="bank-gf"></span><em></em></li>
+				<li><span class="bank-gs"></span><em></em></li>
+				<li><span class="bank-hx"></span><em></em></li>
+				<li><span class="bank-ms"></span><em></em></li>
+				<li><span class="bank-ny"></span><em></em></li>
+				<li><span class="bank-pa"></span><em></em></li>
+				<li><span class="bank-pf"></span><em></em></li>
+				<li><span class="bank-yc"></span><em></em></li>
+				<li><span class="bank-zg"></span><em></em></li>
+				<li><span class="bank-zs"></span><em></em></li>
+				<li><span class="bank-zx"></span><em></em></li>
+			</ul>
+		</div>
+		
+		<dl class="m-subTitle">
+			<dt><span></span>请完善您的汇款信息</dt>
+		</dl>
+		<div class="m-amount clearfix">
+			<div class="title f16">
+				持卡人姓名：张**
+			</div>
+			<div class="title f16">
+				联系人手机：1314****0904
+			</div>
+			<dl class="item item-x">
+				<h2>银行卡卡号：</h2>
+				<div class="form">
+					<input type="text" placeholder="输入您的工商银行卡号">
+					<span class="error">错误信息吧</span>
+				</div>
+			</dl>	
+		</div>		
+		
+		<div class="m-bottomblock ftc">
+			<a href="result.shtml" class="u-button f20 w168">生成汇款单</a>
+		</div>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js');</script> 
+<!--#include virtual="include/_footer.html"-->

@@ -14,7 +14,7 @@
 				<span class="error">错误信息吧</span>
 			</div>			
 		</div>
-		<div class="item">
+		<div class="item none">
 			<h2>证件类型</h2>
 			<div class="form">
 				<span class="icon icon04"></span>
@@ -32,7 +32,7 @@
 			</div>			
 		</div>
 		<div class="item">
-			<h2>证件号码</h2>
+			<h2>身份证号码</h2>
 			<div class="form">
 				<span class="icon icon02"></span>
 				<span class="line"></span>
@@ -40,7 +40,7 @@
 				<span class="error none">错误信息吧</span>
 			</div>			
 		</div>
-		<div class="item item-idcard">
+		<div class="item item-idcard none">
 			<h2>上传身份证照片</h2>
 			<ul class="upload">
 				<li><span></span>手持身份证正面照片 <input type="file"></li>
@@ -53,5 +53,5 @@
 	</div>
 </div>
 <!--#include virtual="include/footer.html"--> 
-<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/login.js');</script> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js');</script> 
 <!--#include virtual="include/_footer.html"-->

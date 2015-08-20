@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import 'base';
+@import 'u-base';
+
+@import "bank/*.png";
+@include all-bank-sprites;
+
+
+.g-right{
+	padding-bottom: 60px;
+}
+
+.m-bank{
+	ul{
+		width: 740px;margin: 0 auto;
+		li{
+			float: left;width: 184px;height:46px;overflow: hidden;position: relative;cursor: pointer;border:1px dashed #CCC;margin:-1px 0 0 -1px;
+			&:hover,&.hover,&.on{
+				border:2px solid $orange;height: 44px;width: 182px;z-index: 2;
+				em{
+					display: block;right: 0;bottom:0;position: absolute;@include icon(icon)
+				}
+			}
+		}
+		span{
+			position: absolute;top:10px;left: 15px;display: inline-block;width: 140px;height: 25px;
+		}
+	}
+}
+
+.m-setup{
+	border:1px solid $border;border-width:1px 1px 0 0;width: 700px;margin:0 auto;overflow: hidden;
+	ul{
+		width: 800px;overflow: hidden;border-bottom:1px solid $border;
+	}
+
+	li{
+		width: 120px;float: left;border-left:1px solid $border;line-height: 40px;height: 40px;padding:0 10px;font-size: 14px;
+		&.li2{
+			width: 400px;color:#999;position: relative;
+		}
+		&.li3{
+			border-left: none;text-align: right;
+		}
+	}
+
+	.bank{
+		display: inline-block;width: 140px;height: 25px;position: absolute;top:50%;margin-top: -13px; left: 15px;
+	}
+	.number{
+		position: absolute;left:160px;
+	}
+}

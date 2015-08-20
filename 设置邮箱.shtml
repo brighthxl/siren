@@ -1,0 +1,24 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/login.css')</script>
+<!--#include virtual="include/_header.html"-->
+<div class="g-body">
+	<div class="m-title f20 cWhite">设置邮箱</div>
+	<div class="m-form">
+		<div class="item">
+			<h2>添加/绑定邮箱</h2>
+			<div class="form">
+				<span class="icon"></span>
+				<span class="line"></span>
+				<input type="text" placeholder="请输入您的邮箱">
+				<span class="error">错误信息吧</span>
+			</div>			
+		</div>
+	</div>	
+	<div class="m-button">
+		<a href="" class="u-button f18">提交认证</a>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js');</script> 
+<!--#include virtual="include/_footer.html"-->

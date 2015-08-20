@@ -1,0 +1,107 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/u-setup.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				账户设置
+			</dt>
+		</dl>
+		<dl class="m-subTitle">
+			<dt><span></span>基本信息</dt>
+		</dl>
+		<div class="m-setup">
+			<ul>
+				<li class="li1">最后一次登录</li>
+				<li class="li2">上次登录 北京，时间：2015-08-19 17:32:23</li>
+				<li class="li3"></li>
+			</ul>
+			<ul>
+				<li class="li1">我的手机</li>
+				<li class="li2">您绑定的登录手机：131****0904</li>
+				<li class="li3"><a href="" class="cBlue fun">更换</a></li>
+			</ul>
+			<ul>
+				<li class="li1">我的邮箱</li>
+				<li class="li2">暂未添加邮箱</li>
+				<li class="li3"><a href="设置邮箱.shtml" class="cBlue fun">添加</a></li>
+			</ul>
+			<ul>
+				<li class="li1">我的邮箱</li>
+				<li class="li2">您已设置邮箱：hao123132@126.com</li>
+				<li class="li3"><a href="设置邮箱.shtml" class="cBlue fun">修改</a></li>
+			</ul>
+			<ul>
+				<li class="li1">登录密码</li>
+				<li class="li2">互联网账号存在被盗风险，建议您定期更改密码以保护账户安全。</li>
+				<li class="li3"><a href="忘记密码.shtml" class="cBlue fun">修改</a></li>
+			</ul>
+			<ul>
+				<li class="li1">注册时间</li>
+				<li class="li2">2015-04-09</li>
+				<li class="li3"></li>
+			</ul>
+		</div>
+		<dl class="m-subTitle">
+			<dt><span></span>实名认证</dt>
+		</dl>
+		<div class="m-setup">
+			<ul>
+				<li class="li1">身份信息</li>
+				<li class="li2">未实名认证</li>
+				<li class="li3"><a href="实名认证.shtml" class="cBlue fun">申请实名认证</a></li>
+			</ul>
+			<ul>
+				<li class="li1">身份信息</li>
+				<li class="li2">您已完成实名认证 李**（4***************X）</li>
+				<li class="li3">已认证</li>
+			</ul>
+			<ul>
+				<li class="li1">认证时间</li>
+				<li class="li2">2015-04-09</li>
+				<li class="li3"></li>
+			</ul>
+			<ul>
+				<li class="li1">认证时间</li>
+				<li class="li2">暂未认证</li>
+				<li class="li3"></li>
+			</ul>
+		</div>
+		<dl class="m-subTitle">
+			<dt><span></span>安全设置</dt>
+		</dl>
+		<div class="m-setup">
+			<ul>
+				<li class="li1">交易密码</li>
+				<li class="li2">提现、交易或安全设置时输入，保护账户资金安全</li>
+				<li class="li3"><a href="设置找回交易密码.shtml" class="cBlue fun">设置</a></li>
+			</ul>
+			<ul>
+				<li class="li1">交易密码</li>
+				<li class="li2">提现、交易或安全设置时输入，保护账户资金安全</li>
+				<li class="li3"><a href="设置找回交易密码.shtml" class="cBlue fun">修改</a></li>
+			</ul>
+			<ul>
+				<li class="li1">银行卡管理</li>
+				<li class="li2">余额提款到银行卡需要先绑定一张您名下的银行卡</li>
+				<li class="li3"><a href="修改添加银行卡.shtml" class="cBlue fun">添加</a></li>
+			</ul>
+			<ul>
+				<li class="li1">银行卡管理</li>
+				<li class="li2">
+					<span class="bank bank-zs"></span>
+					<span class="number">尾号：2265</span>
+				</li>
+				<li class="li3"><a href="修改添加银行卡.shtml" class="cBlue fun">修改</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js');</script> 
+<!--#include virtual="include/_footer.html"-->

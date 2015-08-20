@@ -1,0 +1,23 @@
+/* RESET */
+@charset "utf-8";
+@import 'base';
+@import 'u-base';
+@import 'u-form_ext';
+
+@import "bank/*.png";
+@include all-bank-sprites;
+
+.m-amount{
+	@extend .m-form;
+	padding-top: 30px;
+}
+
+.m-note{
+	border-top:1px dashed $border;padding-left: 31px;
+	h2{
+		padding-top: 22px;height: 30px;
+	}
+	p{
+		line-height: 26px;
+	}
+}

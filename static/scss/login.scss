@@ -31,7 +31,10 @@ $login-layout:smart;
 	.item{
 		height: 105px;position: relative;
 		h2{
-			padding-top: 26px;font-size: 16px;color: #000;height:32px;
+			padding-top: 26px;font-size: 16px;color: #000;height:32px;width: 296px;
+			a{
+				font-size: 12px;padding-top:5px;
+			}
 		}
 		.form{
 			width:295px;height: 45px;border:1px solid $border;position: relative;border-radius: 5px;
@@ -56,6 +59,10 @@ $login-layout:smart;
 		}
 		input,.text{
 			border:none;padding:10px;padding-left: 43px;width: 240px;font:14px/24px Arial;height: 25px;background: rgba(0,0,0,0);position: relative;
+		}
+
+		.text{
+			background: #f8f8f8;
 		}
 
 		.select{
@@ -101,6 +108,19 @@ $login-layout:smart;
 				input{
 					height: 100%;width: 100%;opacity: 0;position: absolute;left:0;top:0;cursor: pointer;
 				}
+			}
+		}
+	}
+
+	.item-select{
+		border:none;
+		.form{
+			border:none
+		}
+		select{
+			width:295px;height: 45px;border:1px solid $border;position: relative;border-radius: 5px;font-size: 14px;
+			&.sel-left{
+				width: 145px;
 			}
 		}
 	}

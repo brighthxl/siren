@@ -1,0 +1,59 @@
+<!--#include virtual="include/header.html"-->
+<title>充值记录</title>
+<script>_K.get('static/css/u-buy.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				购买产品
+			</dt>
+			<dd class="f14">
+				<a href="u-购买产品-汇款.shtml">转账购买</a>
+				<a href="" class="on">余额购买</a>
+			</dd>
+		</dl>
+		<dl class="m-subTitle">
+			<dt><span></span>请填写购买金额</dt>
+		</dl>
+		<div class="m-amount clearfix">
+			<div class="title f16">
+				账户余额：<span class="f20 cOrange">811.80</span> 元&nbsp;&nbsp;&nbsp;<a href="u-账户充值.shtml" class="cBlue fun f14">充值</a>
+			</div>
+			<dl class="item">
+				<h2>要赎回的产品：</h2>
+				<div class="form">
+					<input type="text" placeholder="输入赎回产品代码">
+					<span class="error">错误信息吧</span>
+				</div>
+			</dl>
+			<dl class="item">
+				<h2>要购买的金额：</h2>
+				<div class="form">
+					<span class="unit">元</span>
+					<input type="text" placeholder="输入购买的金额">
+					<span class="error">错误信息吧</span>
+				</div>
+			</dl>
+		</div>
+		<div class="m-note">
+			<h2 class="f14">温馨提示</h2>
+			<p class="cGray">
+				1、为了您的资金安全，您的账户资金将专款专户管理<br>
+				2、交易前请注意您的银行卡充值限制，以免造成不便<br>
+				3、禁止洗钱、虚假交易等行为，一经发现并确认，将终止该账户的使用<br>
+				4、为了您的资金安全，交易前进行实名认证、上传身份证原件、设置交易密码<br>
+				5、如果充值遇到任何问题，请联系客服：40012345678
+			</p>
+		</div>
+		
+		<div class="m-bottomblock ftc">
+			<a href="result.shtml" class="u-button f20 w168">立即购买</a>
+		</div>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js');</script> 
+<!--#include virtual="include/_footer.html"-->

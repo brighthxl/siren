@@ -1,0 +1,51 @@
+/* RESET */
+@charset "utf-8";
+@import 'base';
+@import 'u-base';
+@import 'u-form_ext';
+
+@import "bank/*.png";
+@include all-bank-sprites;
+
+.m-bank{
+	ul{
+		width: 740px;margin: 0 auto;
+		li{
+			float: left;width: 184px;height:46px;overflow: hidden;position: relative;cursor: pointer;border:1px dashed #CCC;margin:-1px 0 0 -1px;
+			&:hover,&.hover,&.on{
+				border:2px solid $orange;height: 44px;width: 182px;z-index: 2;
+				em{
+					display: block;right: 0;bottom:0;position: absolute;@include icon(icon)
+				}
+			}
+		}
+		span{
+			position: absolute;top:10px;left: 15px;display: inline-block;width: 140px;height: 25px;
+		}
+	}
+}
+
+.m-amount{
+	@extend .m-form;
+	padding-top: 40px;
+	.item{
+		h2{
+			width: 150px;text-align: right;padding-right: 15px;
+		}
+	}
+
+	.item-amout{
+		.form{
+			border:none;
+		}
+	}
+
+	.item-bank{
+		.bank{
+			display: inline-block;width: 140px;height: 25px;position: absolute;top:50%;margin-top: -13px; left: 15px;
+		}
+		.number{
+			position: absolute;right:15px;line-height: 45px;
+		}
+	}
+}

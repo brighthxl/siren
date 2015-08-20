@@ -3,8 +3,39 @@
 <script>_K.get('static/css/result.css')</script>
 <!--#include virtual="include/_header.html"-->
 <div class="m-result">
+	<h2 class="title cBlue"><span class="icon"></span>按照以下汇款提示信息完成转账操作</h2>
+	<div class="table">
+		<table class="f14">
+	        <tr class="on">
+	            <td class="cGray ftr" width="150">收款账号：</td>
+	            <td>0200 0981 1902 0304 502</td>
+	        </tr>
+	        <tr>
+	            <td class="cGray ftr">收款银行：</td>
+	            <td>工商银行</td>
+	        </tr>
+	        <tr class="on">
+	            <td class="cGray ftr">户名：</td>
+	            <td>北京选牛网络技术有限公司</td>
+	        </tr>
+	        <tr>
+	            <td class="cGray ftr">充值金额：</td>
+	            <td>2000.07元 <em class="cRed">&nbsp;(特别提示：小数点后的金额用于系统识别您的汇款人信息，请务必按照此金额转账）</em></td>
+	        </tr>
+	        <tr class="on">
+	            <td class="cGray ftr">转账附言：</td>
+	            <td>10006 <em class="cRed">&nbsp;&nbsp;&nbsp;(请在转账附言一栏里填写此数字）</em></td>
+	        </tr>
+	    </table>
+	</div>
+	<div class="button">
+		<a href="" class="u-button u-button-2 f18">进入工商银行网站转账</a><a href="" class="u-button f18">将汇款信息发送到手机</a>
+	</div>
+</div>
+
+<div class="m-result">
 	<h2 class="title cBlue"><span class="icon"></span>恭喜您注册成功</h2>
-	<div class="result">为保证您的账户资金安全，在交易时必须先进行实名认证 <a href="" class="cBlue fun">以后再说</a></div>
+	<div class="result">为保证您的账户资金安全，在交易时必须先进行实名认证 <a href="" class="cBlue fun">暂不，直接登录</a></div>
 	<div class="button">
 		<a href="" class="u-button f18">立即实名认证</a>
 	</div>
@@ -15,6 +46,14 @@
 	<div class="result">您已提交实名认证，我们会尽快确认您的信息<br>感谢您的配合，如有问题请咨询：010-12345678</div>
 	<div class="button">
 		<a href="" class="u-button f18">确定</a>
+	</div>
+</div>
+
+<div class="m-result">
+	<h2 class="title cBlue"><span class="icon"></span>恭喜您密码设置成功</h2>
+	<div class="result">密码设置成功，5秒后自动跳转得到登录页</div>
+	<div class="button">
+		<a href="" class="u-button f18">立即登录</a>
 	</div>
 </div>
 

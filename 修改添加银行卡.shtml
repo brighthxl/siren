@@ -1,0 +1,74 @@
+<!--#include virtual="include/header.html"-->
+<title>私人银行</title>
+<script>_K.get('static/css/login.css')</script>
+<!--#include virtual="include/_header.html"-->
+<div class="g-body">
+	<div class="m-title f20 cWhite">添加/修改银行卡</div>
+	<div class="m-form">
+		<div class="item" style="height:auto">
+			<h2>开户名：王老五</h2>
+		</div>
+		<div class="item item-select">
+			<h2>开户银行行</h2>
+			<div class="form">
+				<select name="" id="">
+					<option value="">工商银行</option>
+					<option value="">建设银行</option>
+					<option value="">中国银行</option>
+					<option value="">农业银行</option>
+				</select>
+			</div>
+		</div>
+		<div class="item item-select">
+			<h2>开户行所在地</h2>
+			<div class="form">
+				<select name="" id="" class="left sel-left">
+					<option value="">工商银行</option>
+					<option value="">建设银行</option>
+					<option value="">中国银行</option>
+					<option value="">农业银行</option>
+				</select>
+				<select name="" id="" class="right sel-left">
+					<option value="">工商银行</option>
+					<option value="">建设银行</option>
+					<option value="">中国银行</option>
+					<option value="">农业银行</option>
+				</select>
+				<span class="error none">错误信息吧</span>
+			</div>
+		</div>
+		<div class="item">
+			<h2>开户行名称</h2>
+			<div class="form">
+				<span class="icon icon02"></span>
+				<span class="line"></span>
+				<input type="password" placeholder="尚都支行">
+				<span class="error none">错误信息吧</span>
+			</div>			
+		</div>
+		<div class="item">
+			<h2>银行卡号</h2>
+			<div class="form">
+				<span class="icon icon02"></span>
+				<span class="line"></span>
+				<input type="password" placeholder="8888 8888 8888 8888">
+				<span class="error none">错误信息吧</span>
+			</div>			
+		</div>
+		<div class="item">
+			<h2><a href="" class="fun cBlue right">忘记交易密码？</a>交易密码</h2>
+			<div class="form">
+				<span class="icon icon02"></span>
+				<span class="line"></span>
+				<input type="password" placeholder="请输入您的交易密码">
+				<span class="error none">错误信息吧</span>
+			</div>			
+		</div>		
+	</div>
+	<div class="m-button">
+		<a href="" class="u-button f18">确定</a>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js','static/js/app/login.js');</script> 
+<!--#include virtual="include/_footer.html"-->

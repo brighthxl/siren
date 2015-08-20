@@ -1,0 +1,71 @@
+<!--#include virtual="include/header.html"-->
+<title>提现</title>
+<script>_K.get('static/css/u-withdrawals.css')</script>
+<!--#include virtual="include/_header.html"-->
+
+<div class="g-main p-w">
+	<!--#include virtual="include/_u-left.html"-->
+	<div class="g-right">
+		<dl class="m-title clearfix">
+			<dt class="f18">
+				提现
+			</dt>
+		</dl>
+		
+		<div class="m-amount clearfix">
+			<dl class="item item-x item-bank">
+				<h2>银行卡：</h2>
+				<div class="form">
+					<span class="bank bank-zs"></span>
+					<span class="number">尾号：<em class="f20 fb">2265</em>&nbsp;&nbsp;<a href="修改添加银行卡.shtml" class="cBlue fun">更换银行卡</a></span>
+				</div>
+			</dl>
+			<dl class="item item-x item-amout">
+				<h2>账户余额：</h2>
+				<div class="form">
+					<div class="text"><span class="f20 cOrange">811.80</span> 元</div>
+				</div>
+			</dl>
+<!-- 			<div class="item item-x">
+				<h2>账户手机：</h2>
+				<div class="form">
+					<div class="text">134******12</div>
+				</div>
+			</div>
+			<div class="item item-x item-code">
+				<h2>验&nbsp;证&nbsp;码：</h2>
+				<div class="form">
+					<span class="icon icon02"></span>
+					<span class="line"></span>
+					<input type="text" placeholder="短信验证码">
+					<span class="error">错误信息吧</span>
+					<span class="btn">获取验证码</span>
+				</div>			
+			</div> -->
+			<dl class="item item-x">
+				<h2>提现金额：</h2>
+				<div class="form">
+					<span class="unit">元</span>
+					<input type="text" placeholder="输入充值的金额">
+					<span class="error none">错误信息吧</span>
+				</div>
+			</dl>			
+			<dl class="item item-x">
+				<h2>交易密码：</h2>
+				<div class="form">
+					<input type="text" placeholder="输入交易密码">
+					<span class="error none">错误信息吧</span>
+				</div>
+				<div class="note"><a href="设置找回交易密码.shtml" class="cBlue fun">忘记交易密码？</a></div>
+			</dl>
+		</div>
+
+
+		<div class="m-bottomblock ftc">
+			<a href="result.shtml" class="u-button f20 w168">立即提现</a>
+		</div>
+	</div>
+</div>
+<!--#include virtual="include/footer.html"--> 
+<script>_K.get('static/js/jquery.min.js','static/js/base.js');</script> 
+<!--#include virtual="include/_footer.html"-->

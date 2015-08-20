@@ -1,0 +1,63 @@
+.m-form{
+	margin-top: -20px;padding-bottom: 30px;
+	.item{
+		height: 105px;position: relative;float:left;padding-left: 35px;width: 340px;
+		h2{
+			padding-top: 26px;font-size: 16px;color: #000;height:32px;
+		}
+		.form{
+			width:310px;height: 45px;border:1px solid $border;position: relative;border-radius: 5px;
+		}
+
+		.error{
+			position: absolute;background: #D84C29;line-height: 24px;color:#fff;left:0;padding:0 20px;bottom: -24px;
+		}
+
+		.unit{
+			position: absolute;top:0;right:0;width: 40px;height: 45px;line-height: 45px;text-align: center;font-size: 14px;
+		}
+
+		input,.text{
+			border:none;padding:10px;width: 290px;font:14px/24px Arial;height: 25px;background: rgba(0,0,0,0);position: relative;
+		}
+
+		.text{
+			background: #f8f8f8;
+		}
+
+		.note{
+			float: left;padding-left: 15px;padding-top: 15px;
+		}
+	}
+
+	.item-x{
+		width: 700px;padding-top: 26px;height: 48px;
+		h2{
+			float: left;padding-top: 13px;
+		}
+		.form{
+			float: left;
+		}
+	}
+
+	.item-code{
+		.form{
+			width: 145px;
+		}
+		input{
+			width: 125px;
+		}
+
+		.btn{
+			position: absolute;width: 135px;right:-150px;top:-1px;border:1px solid $border;border-radius: 5px;height: 45px;line-height: 45px;text-align: center;cursor: pointer;background: #eee;background-image: -webkit-linear-gradient(#fcfcfc, #eee);background-image: linear-gradient(#fcfcfc, #eee);
+			&:hover{
+				background: #e0e0e0;background-image: -webkit-linear-gradient(#ececec, #e0e0e0);background-image: linear-gradient(#ececec, #e0e0e0);
+			}
+		}
+	}
+
+
+	.title{
+		clear: both;padding-left: 35px;padding-top: 26px;
+	}
+}

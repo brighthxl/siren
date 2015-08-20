@@ -32,5 +32,33 @@ $result-layout:smart;
 
 	.button{
 		text-align: center;padding:40px 0;background: #F4F9FB;
+		a{
+			margin:0 10px;
+		}
+	}
+
+	.table{
+		padding-bottom: 30px;
+		table{
+			width: 100%;
+			th{
+				height: 40px;text-align: center;line-height: 1.5em;border:1px solid $border;border-width: 1px 0; background: #f4f4f4;
+			}
+			td{
+				padding:10px 30px 10px 0;line-height: 1.5em;font-size: 13px;color:#707070;
+			}
+			tr{
+				&.on{
+					td{
+						background:#f8f8f8;
+					}
+				}
+				&:hover{
+					td{
+						background:#FFFFE7
+					}
+				}
+			}
+		}
 	}
 }
